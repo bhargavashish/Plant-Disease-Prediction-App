@@ -2,11 +2,6 @@ import streamlit as st
 import tensorflow as tf
 import numpy as np
 
-import sys
-import subprocess
-
-subprocess.run([sys.executable, "-m", "pip", "install", "-r", "requirements.txt"])
-
 
 #Tensorflow Model Prediction
 def model_prediction(test_image):
